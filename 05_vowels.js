@@ -1,5 +1,5 @@
 
-var sentence = "Yes Just do it man, I know you can";
+var sentence = ("Yes Just do it man, I know you can");
 // Print the vowels only aeiou or AEIOU
 var counter = 0;
 for (let index = 0; index < sentence.length; index++){ 

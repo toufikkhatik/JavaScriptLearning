@@ -31,5 +31,26 @@ function swapValues(value1,value2){
 swapValues("toufik","khatik");
 
 "........................string............................"
+console.log("============length of total characters============");
 
-var char="total char"
+var char = "JS the most popular language";
+console.log(char.length);
+console.log("===========index of character with charAt(0,0)============");
+var char = "JS the most popular language";
+console.log("charater at 7",char.charAt(6));
+var char = "JS the most popular language";
+console.log("charater at 11",char.charAt(11));//space is at 11 postion so not showing any value
+
+console.log("=================last chatater using length property=================");
+var chare = "JS the most popular language";
+console.log(chare.charAt(char.length-1));
+
+console.log("=================first chatater using length property=================");
+var chare = "JS the most popular language";
+console.log(chare.charAt(char.length-28));
+console.log(char.length);
+
+console.log("============squar of total length===========");
+var length = 28;
+var num = length*length;
+console.log(num);
